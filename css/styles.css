@@ -1,0 +1,100 @@
+#main-nav {
+  background-color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.nav-item {
+  margin-top: 55px;
+}
+
+.nav-link {
+  color: black;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+.nav-brand {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.logo {
+  margin-top: 25px;
+}
+
+#maincarousel {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.carousel-item {
+  max-width: 1500px;
+  max-height: 500px;
+}
+
+.carousel-caption {
+  color: black;
+  max-width: 500px;
+}
+
+.headline-caption {
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 60px;
+  text-align: left;
+}
+
+.text-caption {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  text-align: left;
+}
+
+.button {
+background-color: black;
+opacity: 0.8;
+border: none;
+color: white;
+padding: 18px 18px;
+text-align: center;
+text-decoration: none;
+display: flex;
+font-size: 15px;
+font-family: 'Montserrat', sans-serif;
+text-transform: uppercase;
+margin: 4px 2px;
+cursor: pointer;
+}
+
+.row {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.card {
+  border-width: medium;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-icon {
+  margin-top: 20px;
+  width: 70px;
+}
+
+.card-headline {
+  margin-top: 40px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.card-content {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
