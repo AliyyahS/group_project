@@ -1,17 +1,154 @@
-.home-button {
-padding-top: 8px;
-padding-right: 0px;
-padding-bottom: 8px;
-padding-left: 0px;
+#main-nav {
+  background-color: white;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
 
-background-color: #b8d288;
-border-top-left-radius: 5px;
-border-top-right-radius: 5px;
-border-bottom-left-radius: 5px;
-border-bottom-right-radius: 5px;
+body {
+border: 30px solid white;
+}
 
-outline: none;
-display: block;
-text-align: center;
+.mobileHide{
+  display: none;}
 
- }
+br {
+        line-height: 150%;
+     }
+
+.nav-item {
+  margin-top: 10px;
+}
+
+.nav-link {
+  color: black;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+.nav-brand {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.logo {
+  margin-top: 0px;
+}
+
+
+h2 {
+  color: #9FB14C;
+  text-align: center;
+}
+
+h5 {
+  color:#9FB14C;
+  text-align: left;
+}
+
+.button1 {
+  background-color: #8A643B;
+  color: white;
+  padding: 10px;
+  font-size: 15px;
+  margin:auto;
+    display:block;
+}
+
+.button2 {
+  background-color:#8A643B;
+  color: white;
+  padding: 10px;
+  font-size: 15px;
+float: right;
+}
+
+.button1:hover {
+  background-color: #48331D;
+  color: white;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.button2:hover {
+  background-color: #48331D;
+  color: white;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.Healthfood {
+  position: relative;
+ width: 100%;
+ z-index: 0;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 60px;
+  right: 60px;
+  background-color: rgba(255, 255, 255, 0.6);white;
+  color: black;
+  padding-left: 20px;
+  padding-right:20px;
+  width: 40%;
+  Height: 480px;
+  box-shadow: -10px 10px 15px -10px rgba(138,138,138,1);
+}
+
+.hidden-text-block {
+
+  color: black;
+  width: 100%;
+  display: none;
+
+}
+
+
+
+div.polaroid {
+  width: 30%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2)
+}
+
+
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+@media screen and (max-width: 850px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 850px) {
+.text-block {
+  visibility: hidden;
+}
+
+@media screen and (max-width: 850px) {
+.hidden-text-block {
+  display: initial;
+}
