@@ -1,30 +1,23 @@
 <!DOCTYPE html>
 <html>
 
-<head>
+<head> <!-- Document Setup inc. links to stylesheets and bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+
   <title> About page</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 
-<link rel="shortcut icon" type="image/png" href="./assets/food.png" style="width:16px">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<link rel="stylesheet" type="text/css" href="styles.css">
-
-<head>
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
 <body>
-
-  <div id="main-nav">
+  <div id="main-nav"> <!-- Navigation menu -->
     <ul class="nav justify-content-center">
       <li class="nav-item">
         <a class="nav-link active" href="/index.html">Home</a>
       </li>
-      <!--logo to change-->
       <li class="logo">
-        <img class="nav-brand" src="MunchBox.png" style="width:150px">
+        <img class="nav-brand" src="MunchBox.png" style="width:100px">
       </li>
       <li class="nav-item">
         <a class="nav-link" href="/about.html">About</a>
@@ -32,92 +25,223 @@
     </ul>
   </div>
 
-
-<img class="Healthfood" src="Healthfoods.png" alt="Healthy lunches"/>
-  <div class="text-block">
-    <h2>Munch Box is the solution to healthy lunchboxes, insert title stuff</h2>
-    <p>Text here about idea etc.. (css to add)</p>
-    <h3> Sign up to claim 15% off your first order<h3>
+  <img class="Healthfood" src="Healthfoods.png" alt="Healthy lunches"/> <!--Main page image-->
+  <div class="text-block"> <!--Text block (Not visible for mobile for responsive design)-->
+    <h2>Want to try our food?</h2>
     <br>
-  <button class="button button1"><strong>Click Here</strong></button>
-</div>
+    <p>We supply a wide range of nutritious meat, fish and vegetarian choices,
+      with cultural dishes featured alongside established favourites and regional specialities.
+      Our food is suitable for a range of ages and food packs ingredients and portion sizes can be tailored to your needs.
+      <br> <br>
+      We have a specialist team of dietary chefs who freshly prepare meals each morning for children with cultural or ethical dietary considerations or food allergies and intolerances.</p>
 
-<br>
-<br>
-<br>
+      <h3>We believe our food speaks for itself, sign up to claim 10% off your first order with promo code: <strong>WEBlets</strong> <h3>
+        <br>
+        <a href="#form"> <button class="button button1"> <strong>Click Here</strong></button></a>
+   </div>
 
-<div class="hidden-text-block">
-  <h2>Munch Box is the solution to healthy lunchboxes, insert title stuff</h2>
-  <p>Text here about idea etc.. (css to add)</p>
-  <h3> Sign up to claim 15% off your first order<h3>
-  <br>
-<button class="button button1"><strong>Click Here</strong></button>
-</div>
-<br>
-<br>
+    <br><br><br>
 
+    <div class="hidden-text-block"> <!-- Text block only visible for mobile screen sizes (Suitable for responsive design)-->
+      <h2>Want to try our food?</h2>
+      <br>
+      <p>We supply a wide range of nutritious meat, fish and vegetarian choices,
+        with cultural dishes featured alongside established favourites and regional specialities.
+        Our food is suitable for a range of ages and food packs ingredients and portion sizes can be tailored to your needs.
+        <br> <br>We have a specialist team of dietary chefs who freshly prepare meals each morning for children with cultural or ethical dietary considerations or food allergies and intolerances.</p>
+        <h3> We believe our food speaks for itself, sign up to claim 10% off your first order with promo code: <strong>WEBlets</strong> <h3>
+          <br>
+          <a href="#form"> <button class="button button1"> <strong>Click Here</strong></button></a>
+    </div>
 
-<h2>Examples of our lunch packs</h2>
-<br>
-<br>
-
-<div class="row">
-  <div class="column">
-<img class="pasta" src="pasta.png" alt="pasta" style="width:100%">
-<div class="container">
-<h4>The vegetarian pack</h4>
-<p>A selection of balanced, vegatarian meals including pastas and salads</p>
-<h5> From £2.00 per meal <button class="button button2"><strong>See more</strong></button> </h5>
-</div>
-</div>
-  <div class="column">
-<img class="sandwich" src="sandwich.png" alt="sandwich" style="width:100%">
-<div class="container">
-  <h4>The lunch pack</h4>
-<p>Sandwiches, wraps and bagels with a range of healthy fillings</p>
-<h5> From £1.50 per meal <button class="button button2"><strong>See more</strong></button> </h5>
-</div>
-  </div>
-  <div class="column">
-<img class="bentobox" src="bentobox.png" alt="bentobox" style="width:100%">
-<div class="container">
-  <h4>The combo pack</h4>
-<p>Hot and cold bentoboxes packed with tasty, nutritious meals and snacks</p>
-<h5> From £2.50 per meal <button class="button button2"><strong>See more</strong></button> </h5>
-
-</div>
-  </div>
-</div>
+     <br><br>
 
 
-<div class="row">
-  <div class="column">
-<img class="protein" src="proteinbox.png" alt="protein box" style="width:100%">
-<div class="container">
-<h4>The protein pack</h4>
-<p>Filling meals packed full of protein and vegetables to fuel the day</p>
-<h5> From £2.50 per meal
-  <button class="button button2"><strong>See more</strong></button>
-</div>
-</div>
-  <div class="column">
-<img class="treat" src="treatbox.png" alt="treat box" style="width:100%">
-<div class="container">
-  <h4>The treat pack</h4>
-<p>Special occasion? The treat pack contains healthy but delicious treats</p>
-<h5> From £1.50 per meal <button class="button button2"><strong>See more</strong></button> </h5>
-</div>
-  </div>
-  <div class="column">
-<img class="snack" src="snackbox.png" alt="snack box" style="width:100%">
-<div class="container">
-  <h4>The snack pack</h4>
-<p>A range of nutritious snacks for on-the-go, instead of a main meal</p>
-<h5> From £1.50 per meal <button class="button button2"><strong>See more</strong></button> </h5>
-</div>
-  </div>
-</div>
+   <h2>Some of our favourite boxes</h2> <!-- New section: Card grid-->
 
+     <br><br>
+
+         <div class="row">
+
+           <div class="column">
+             <img class="pasta" src="pasta.png" alt="pasta" style="width:100%">
+             <div class="container">
+               <h4>The vegetarian box</h4>
+               <p>A selection of balanced, vegatarian meals including pastas and salads</p>
+               <h5> From £2.00 per meal <button class="button button2"><strong>See more</strong></button> </h5>
+             </div>
+           </div>
+
+           <div class="column">
+             <img class="sandwich" src="sandwich.png" alt="sandwich" style="width:100%">
+             <div class="container">
+               <h4>The lunch box</h4>
+               <p>Sandwiches, wraps and bagels with a range of healthy fillings</p>
+               <h5> From £1.50 per meal <button class="button button2"><strong>See more</strong></button> </h5>
+             </div>
+           </div>
+
+           <div class="column">
+             <img class="bentobox" src="bentobox.png" alt="bentobox" style="width:100%">
+             <div class="container">
+               <h4>The combo box</h4>
+               <p>Hot and cold bentoboxes packed with tasty, nutritious meals and snacks</p>
+               <h5> From £2.50 per meal <button class="button button2"><strong>See more</strong></button> </h5>
+             </div>
+           </div>
+
+           <div class="column">
+             <img class="protein" src="proteinbox.png" alt="protein box" style="width:100%">
+             <div class="container">
+               <h4>The protein box</h4>
+               <p>Filling meals packed full of protein and vegetables to fuel the day</p>
+               <h5> From £2.50 per meal <button class="button button2"><strong>See more</strong></button>
+               </div>
+             </div>
+
+             <div class="column">
+               <img class="treat" src="treatbox.png" alt="treat box" style="width:100%">
+               <div class="container">
+                 <h4>The treat box</h4>
+                 <p>Special occasion? The treat pack contains healthy but delicious treats</p>
+                 <h5> From £1.50 per meal <button class="button button2"><strong>See more</strong></button> </h5>
+               </div>
+             </div>
+
+             <div class="column">
+               <img class="snack" src="snackbox.png" alt="snack box" style="width:100%">
+               <div class="container">
+                 <h4>The snack box</h4>
+                 <p>A range of nutritious snacks for on-the-go, instead of a main meal</p>
+                 <h5> From £1.50 per meal <button class="button button2"><strong>See more</strong></button> </h5>
+               </div>
+             </div>
+
+          </div>
+
+          <br><br><br>
+
+          <h2 id="form">Order your Munch Box</h2> <!--New Section: Order form-->
+
+          <br>
+
+          <form>
+            <div class="form-group row"> <!-- Full name field-->
+              <label for="inputname" class="col-sm-2 col-form-label">Full name</label>
+              <div class="col-sm-10">
+                <input type="full name" class="form-control" id="inputname" placeholder="Full name">
+              </div>
+            </div>
+
+            <div class="form-group row"> <!--Email field-->
+              <label for="inputemail" class="col-sm-2 col-form-label">Email</label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control" id="inputemail" placeholder="Email">
+              </div>
+            </div>
+
+            <fieldset class="form-group"> <!--Box selection field-->
+              <div class="row">
+                <legend class="col-form-label col-sm-2 pt-0">Select your Munch Box</legend>
+                <div class="col-sm-10">
+
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                    <label class="form-check-label" for="gridRadios1">
+                      The vegetarian box
+                    </label>
+                  </div>
+
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                    <label class="form-check-label" for="gridRadios2">
+                      The lunch box
+                    </label>
+                  </div>
+
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
+                    <label class="form-check-label" for="gridRadios3">
+                      The combo pack
+                    </label>
+                  </div>
+
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios4" value="option4">
+                    <label class="form-check-label" for="gridRadios4">
+                      The protein box
+                    </label>
+                  </div>
+
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios5" value="option5">
+                    <label class="form-check-label" for="gridRadios5">
+                      The treat box
+                    </label>
+                  </div>
+
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios6" value="option6">
+                    <label class="form-check-label" for="gridRadios6">
+                      The snack box
+                    </label>
+                  </div>
+
+                  <div class="form-row align-items-center"> <!--Frequency-->
+                    <div class="col-auto my-1">
+                      <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                        <option selected>Frequency</option>
+                        <option value="1">One-off taster box</option>
+                        <option value="2">One-off weeks worth (5 boxes)</option>
+                        <option value="3">One-off weeks worth (3 boxes)</option>
+                        <option value="4">5 boxes a week</option>
+                        <option value="5">3 boxes a week</option>
+                        <option value="6">1 box a week</option>
+                      </select>
+                    </div>
+
+                 </div>
+                </div>
+              </fieldset> <!--Closing MunchBox selection-->
+
+              <div class="form-group row"> <!--Dietary requirements-->
+                <div class="col-sm-2">Dietary requirements</div>
+                <div class="col-sm-10">
+
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck1">
+                    <label class="form-check-label" for="gridCheck1">
+                      Yes
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck2">
+                    <label class="form-check-label" for="gridCheck2">
+                      No
+                    </label>
+                  </div>
+
+                  <div class="form-group row"> <!--Extra information box-->
+                    <div class="col-sm-10">
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Please enter any allergy or dietary requirements"></textarea>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-group row"> <!--Promotional discount-->
+                <label for="inputcode" class="col-sm-2 col-form-label">Promotional discount code</label>
+                <div class="col-sm-10">
+                  <input type="promo code" class="form-control" id="inputcode" placeholder="Promo code">
+                </div>
+              </div>
+              <br>
+              <div class="form-group row"> <!--Submit button-->
+                <div class="col-sm-11">
+                  <button type="submit" class="btn btn-primary"><strong>Submit</strong></button>
+                </div>
+              </div>
+            </form> <!--Closing the form-->
 
 </body>
 </html>

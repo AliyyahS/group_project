@@ -4,151 +4,160 @@
   margin-bottom: 20px;
 }
 
-body {
-border: 30px solid white;
-}
+body /* Whole page CSS */
+  {border: 30px solid white;}
 
-.mobileHide{
-  display: none;}
+br /* Line break CSS */
+  {line-height: 150%;}
 
-br {
-        line-height: 150%;
-     }
+.nav-item /* Nav CSS*/
+  {margin-top: 10px;}
 
-.nav-item {
-  margin-top: 10px;
-}
+.nav-link
+  { color: black;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px; }
 
-.nav-link {
-  color: black;
-  text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
-}
+.nav-brand
+  { margin-left: 50px;
+    margin-right: 50px; }
 
-.nav-brand {
-  margin-left: 50px;
-  margin-right: 50px;
-}
-
-.logo {
-  margin-top: 0px;
-}
+.logo
+  { margin-top: 0px; }
 
 
-h2 {
-  color: #9FB14C;
-  text-align: center;
-}
+h4 /* Text CSS*/
+  { color: #5C6F00; /*Dark green*/
+    font-weight: bold; }
 
-h5 {
-  color:#9FB14C;
-  text-align: left;
-}
+h3
+  { color: #5C6F00;
+    font-size: 20px; }
 
-.button1 {
-  background-color: #8A643B;
-  color: white;
-  padding: 10px;
-  font-size: 15px;
-  margin:auto;
-    display:block;
-}
+h2
+  { color: #9FB14C; /*Light green*/
+    text-align: center; }
 
-.button2 {
-  background-color:#8A643B;
-  color: white;
-  padding: 10px;
-  font-size: 15px;
-float: right;
-}
+h5
+  { color:#9FB14C;
+    text-align: left; }
 
-.button1:hover {
-  background-color: #48331D;
-  color: white;
-  padding: 10px;
-  font-size: 15px;
-}
+.button1 /* Button (center) CSS*/
+  { background-color: #8A643B; /*Light brown*/
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    margin:auto;
+    display:block; }
 
-.button2:hover {
-  background-color: #48331D;
-  color: white;
-  padding: 10px;
-  font-size: 15px;
-}
+.button2 /* Button (right float) CSS */
+  { background-color:#8A643B;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    float: right; }
 
-.Healthfood {
-  position: relative;
- width: 100%;
- z-index: 0;
-}
+.button1:hover /* Button (Hover) CSS */
+  { background-color: #48331D; /* Dark brown*/
+    color: white;
+    padding: 10px;
+    font-size: 15px; }
 
-.text-block {
-  position: absolute;
-  bottom: 60px;
-  right: 60px;
-  background-color: rgba(255, 255, 255, 0.6);white;
-  color: black;
-  padding-left: 20px;
-  padding-right:20px;
-  width: 40%;
-  Height: 480px;
-  box-shadow: -10px 10px 15px -10px rgba(138,138,138,1);
-}
+.button2:hover
+  { background-color: #48331D;
+    color: white;
+    padding: 10px;
+    font-size: 15px; }
 
-.hidden-text-block {
-
-  color: black;
-  width: 100%;
-  display: none;
-
-}
-
-
-
-div.polaroid {
-  width: 30%;
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-bottom: 25px;
-}
-
-
-
-div.container {
-  text-align: center;
-  padding: 10px 20px;
-  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2)
-}
-
-
-
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 10px;
-}
-
-@media screen and (max-width: 850px) {
-  .column {
+.Healthfood /* Main header image */
+  { position: relative;
     width: 100%;
-  }
+    z-index: 0; }
+
+.text-block /* Text block (Regular view) */
+  { position: absolute;
+    bottom: 90px;
+    right: 60px;
+    background-color: rgba(255, 255, 255, 0.6);white;
+    color: black;
+    padding-left: 20px;
+    padding-right:20px;
+    width: 40%;
+    Height: 480px;
+    box-shadow: -10px 10px 15px -10px rgba(138,138,138,1); }
+
+.hidden-text-block /* Text block (Mobile only- responsive view)*/
+  { color: black;
+    width: 100%;
+    display: none; }
+
+
+div.container /* Grid cards CSS */
+  { text-align: center;
+    padding: 10px 20px;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2) }
+
+.row:after
+  { content: "";
+    display: table;
+    clear: both; }
+
+.column
+  { float: left;
+    width: 33.33%;
+    padding: 10px; }
+
+.btn-primary /* Bootstrap form CSS (Button) */
+  { background-color: #8A643B;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    margin:auto;
+    display:block;
+    border-radius: 0; }
+
+.btn-primary:hover /* Bootstrap form CSS (Button-Hover) */
+  { background-color: #48331D;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 0; }
+
+.pt-0 /* Bootstrap form labels CSS */
+  { color: #5C6F00;
+    font-weight: bold; }
+
+.col-form-label
+  { color: #5C6F00;
+    font-weight: bold; }
+
+.col-sm-2
+  { color: #5C6F00;
+    font-weight: bold; }
+
+.col-sm-11 /* Bootstrap form CSS (Button alignment) */
+  { text-align:center; }
+
+
+
+
+@media screen and (max-width: 850px) /* Responsive grid cards */
+{
+.column
+  { width: 100%; }
 }
 
 
-@media screen and (max-width: 850px) {
-.text-block {
-  visibility: hidden;
+@media screen and (max-width: 850px) /* Responsive text block- hides full size text block on small screens */
+{
+.text-block
+  { visibility: hidden; }
 }
 
-@media screen and (max-width: 850px) {
-.hidden-text-block {
-  display: initial;
+@media screen and (max-width: 850px) /* Responsive text block- reveals mobile view text block on small screens */
+{
+.hidden-text-block
+  { display: initial; }
 }
