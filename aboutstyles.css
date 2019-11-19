@@ -1,7 +1,7 @@
 #main-nav {
   background-color: white;
-  margin-top: 5px;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 body /* Whole page CSS */
@@ -16,7 +16,6 @@ br /* Line break CSS */
 .nav-link
   { color: black;
     text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
     font-size: 20px; }
 
 .nav-brand
@@ -77,7 +76,7 @@ h5
 
 .text-block /* Text block (Regular view) */
   { position: absolute;
-    bottom: 90px;
+    bottom: 35px;
     right: 60px;
     background-color: rgba(255, 255, 255, 0.6);white;
     color: black;

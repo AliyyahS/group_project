@@ -2,21 +2,27 @@
 <head>
   <title>Munch Box</title>
 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <!--favicon-->
   <link rel="shortcut icon" type="image/png" href="./assets/food.png" style="width:16px">
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="./css/styles.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-  <div id="main-nav">
+  <div id="main-nav"> <!-- Navigation menu -->
     <ul class="nav justify-content-center">
       <li class="nav-item">
         <a class="nav-link active" href="./index.html">Home</a>
       </li>
       <li class="logo">
-        <img class="nav-brand" src="./logo.jpeg" style="width:150px">
+        <img class="nav-brand" src="MunchBox.png" style="width:100px">
       </li>
       <li class="nav-item">
         <a class="nav-link" href="./about.html">About</a>
@@ -110,7 +116,7 @@
 
   <!--Sign up form-->
 
-  <div id="form-section">
+  <div class="form-section">
     <div class="form-header">
       <h4 style="text-transform: uppercase; font-size: 30px;">Order your first Munch Box</h4>
       <p>Sign up below to receive 50% off your first box. Cancel anytime.</p>
@@ -135,10 +141,98 @@
           <input type="checkbox" class="form-check-input" id="exampleCheck1">
           <label class="form-check-label" for="Check1">I have read and understood the <a href="#" style="color: black">terms & condition</a></label>
         </div>
-        <button type="submit" class="btn btn-primary">Sign Up</button>
+        <button type="submit" class="btn btn-primary" style="font-size: 15px">Sign Up</button>
       </form>
     </div>
   </div>
+
+  <!--Lizzie's code-->
+
+  <section id="image">
+     <div class="container">
+       <img src="kidcollage.png" alt="RecipeApp Owner" height="600px" width="1000px" class="center">
+     </div>
+   </section>
+
+   <div class="w3-container" style="padding:128px 16px; padding-top: 50px; padding-bottom: 50px;" id="about">
+     <h3 class="w3-center" style="color:#9fb14c; font-size:30px;">ABOUT MUNCHBOX</h3>
+     <p class="w3-center w3-large">Our mission is to provide healthy, wholesome packed lunches made with:</p>
+     <div class="w3-row-padding w3-center" style="margin-top:64px">
+       <div class="w3-quarter">
+         <p class="w3-large" style="color:#5c6f00">✓ No Preservatives</p>
+         <p>Preservatives, such as sulfites, can trigger wheezing and other asthma symptoms </p>
+       </div>
+       <div class="w3-quarter">
+
+         <p class="w3-large" style="color:#5c6f00">✓ No saturated fats</p>
+         <p>Saturated fats increase your LDL (bad) cholesterol which can deposit in your arteries </p>
+       </div>
+       <div class="w3-quarter">
+
+         <p class="w3-large" style="color:#5c6f00">✓ No unwanted salts or sugars</p>
+         <p>Salt puts a lot of pressure on children's kidneys and a lot of the sugar we eat is hidden in the food we buy – even in savoury food</p>
+       </div>
+       <div class="w3-quarter">
+
+         <p class="w3-large" style="color:#5c6f00">✓ Local and ethically sourced produce</p>
+         <p>Supporting our local farmers and reducing our carbon footprint</p>
+       </div>
+     </div>
+   </div>
+
+   <div class="form-section">
+     <div class="form-header">
+       <h4 style="text-transform: uppercase; font-size: 30px;">SIGN UP TO OUR NEWSLETTER</h4>
+       <p>And receive healthy recipes for your kids to try at home!</p>
+     </div>
+     <div class="signup-form">
+       <form>
+         <div class="form-group">
+           <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="Email address">
+         </div>
+         <button type="submit" class="btn btn-primary" style="font-size: 15px">Sign Up</button>
+       </form>
+     </div>
+   </div>
+
+
+   <!--<div class="w3-container w3-light-grey" style="padding:128px 16px; padding-top:50px; padding-bottom:50px;" id="contact">
+     <h3 class="w3-center">SIGN UP TO OUR NEWSLETTER</h3>
+     <p class="w3-center w3-large">And recieve healthy recipes for your kids to try at home!</p>
+   <div style="margin-top:1px">
+    <br>
+     <form>
+       <div class="signup-form">
+       <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
+       <p>
+         <button class="btn">Subscribe</button>
+       </p>
+       </div>
+     </form>
+
+   </div>
+ </div>-->
+
+ <section id="boxes">
+   <section id="boxes">
+      <div class="container">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <div class="box">
+          <a href="http://www.facebook.com" class="fa fa-facebook"></a>
+        </div>
+        <div class="box">
+          <a href="http://www.twitter.com" class="fa fa-twitter"></a>
+        </div>
+        <div class="box">
+          <a href="http://www.instagram.com" class="fa fa-instagram"></a>
+        </div>
+      </div>
+    </section>
+  </section>
+
+    <div class="footer">
+      <p> MunchBox, Copyright &copy; 2019 </p>
+    </div>
 
   <!-- Bootstrap core JavaScript
   ================================================== -->
