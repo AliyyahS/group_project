@@ -1,0 +1,177 @@
+#main-nav {
+  background-color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.nav-item {
+  margin-top: 55px;
+}
+
+.nav-link {
+  color: #5c6f00;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+.nav-link:hover {
+  color: #9fb14c;
+}
+
+.nav-brand {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.logo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#maincarousel {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.carousel-item {
+  max-width: 1500px;
+  max-height: 500px;
+}
+
+.carousel-caption {
+  color: black;
+  max-width: 500px;
+  background-color: white;
+  opacity: 0.8;
+  padding-left: 30px;
+  padding-right: 30px;
+  height: 300px;
+}
+
+.headline-caption {
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 35px;
+  text-align: left;
+  color: #5c6f00;
+}
+
+.text-caption {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  text-align: left;
+}
+
+.button {
+background-color: #8a643b;
+border: none;
+color: white;
+padding: 18px 18px;
+text-align: center;
+text-decoration: none;
+display: flex;
+font-size: 15px;
+font-family: 'Montserrat', sans-serif;
+text-transform: uppercase;
+margin: 4px 2px;
+cursor: pointer;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.instructions {
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 10px;
+    color: #5c6f00
+}
+
+.row {
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+.card {
+  border-width: medium;
+  border-color: #8a643b;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-icon {
+  margin-top: 20px;
+  width: 70px;
+}
+
+.card-headline {
+  margin-top: 40px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  color: #5c6f00;
+}
+
+.card-content {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#form-section {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 30px;
+  background-color: #9fb14c;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.form-header {
+  padding-bottom: 10px;
+  text-align: center;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+input[type=name], input[type=email], input[type=password], input [type=checkbox] {
+  padding: 2px;
+  padding-left: 8px;
+  margin: 0;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-sans-serif;
+}
+
+.signup-form {
+  display: block;
+  text-align: center;
+}
+
+form {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  color: white;
+  font-size: 15px;
+}
+
+.btn-primary {
+  background-color: #8a643b;
+  border: none;
+  color: white;
+  font-size: 15px;
+}
+
+.btn:hover {
+  background-color: #8a643b;
+  opacity: 0.8;
+}
