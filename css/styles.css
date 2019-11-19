@@ -27,7 +27,6 @@ body /* Whole page CSS */{
 }
 
 .carousel-item {
-  max-width: 1500px;
   max-height: 500px;
 }
 
